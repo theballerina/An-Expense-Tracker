@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,0">
+<title>My Expense Tracker</title>
+<link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+<header>
+<h1>My Expense Tracker</h1>
+</header>
+<div class="main-container"> 
+<div class="container">
+    <h4>My Balance</h4>
+    <h1 id="Balance">$0.00</h1>
+    <div class="inc-exp-container"> 
+        <div> 
+        <h4>INCOME</h4>
+        <p id="money-plus" class="money plus">+$0.00</p>
+</div>
+<div>
+    <h4>EXPENSE</h4> 
+    <p id="money-minus" class="money minus">-$0.00</p>
+</div>
+</div>
+<h3>History</h3>
+<ul id="list" class="list">
+    <li>Courses</li>
+    <li>Travel</li>
+<li>Stationary</li>
+</ul>
+</div>
+<h3>Add new transaction</h3>
+<form id="cup">
+    <div class="cup-thee">
+        <label for="text">Name</label> 
+    <input type="text" id="text" placeholder="what do u have new?"/>
+</div>
+<div class="cup-thee">
+    <label for="amount">Amount<br/>       
+    </label>
+    <input  type="number" id="amount" placeholder="Enter amount..."/>
+</div>
+    <button class="btn" id="add-btn">Add transaction</button>
+</form>
+</div>
+<script src="./main.js"></script>
+    </body>
+
+</html>
